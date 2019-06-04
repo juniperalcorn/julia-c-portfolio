@@ -5,8 +5,7 @@ body{
     background-color: white;
     font-family: 'Kodchasan', sans-serif;
     height: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
 /* HEADER */
 .header{
@@ -93,7 +92,7 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5%;
+    margin: 5% 7% 0 7%;
     border: 1em solid #c2c929;
 }
 .approachTitle{
@@ -160,4 +159,17 @@ img{
 }
 #kod{
 font-family: 'Kodchasan', sans-serif;
+}
+/* FOOTER */
+footer{
+    background-color: #808681;
+    height: 5%;
+    font-size: .75em;
+    padding: .5% 0 .5% 0;
+    text-align: right;
+    padding-right: 3%
+}
+.logo{
+    max-width: 1%;
+    margin-left: 1%;
 }
