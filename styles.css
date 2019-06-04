@@ -188,6 +188,7 @@ textarea{
 .contactButton{
     text-align: right;
     margin-right: 30%;
+    font-family: 'Kodchasan', sans-serif;
 }
 /* FOOTER */
 footer{
@@ -201,4 +202,82 @@ footer{
 .logo{
     max-width: 1%;
     margin-left: 1%;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 480px) and (min-width: 320px){
+    .header{
+        flex-direction: column;
+    }
+    #nav{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    #nav a{
+        margin-left: 0;
+        margin-right: 2%;
+        font-size: .7em;
+        margin-bottom: 5%;
+    }
+    #whyArt{
+        flex-direction: column;
+    }
+    .whyTitle{
+        width: 30%;
+        margin: 0 auto;
+        background-color: #f9c804;
+        padding: 3%;
+    }
+    .whyDescription{
+        margin: 5%;
+        width: auto;
+    }
+    #approach{
+        margin: 5%;
+    }
+    .approachTitle{
+        width: 50%;
+    }
+    .approachDescription{
+        padding: 7%;
+    }
+    #portfolio{
+        margin: 5%;
+    }
+    #contact{
+        margin: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact h2{
+        text-align: center;
+    }
+    #contactForm{
+        margin-top: 0;
+        width: 80%;
+    }
+    input{
+        border: 2px solid #808681;
+        width: 60%;
+    }
+    textarea{
+        border: 2px solid #808681;
+        width: 60%;
+    }
+    #email label{
+        margin-right: 16%;
+    }
+    #name label{
+        margin-right: 15%;
+    }
+    .contactButton{
+        text-align: center;
+        margin: 0;
+    }
+    .logo{
+        max-width: 2.5%;
+        margin-left: 2%;
+    }
 }
