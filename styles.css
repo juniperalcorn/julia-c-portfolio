@@ -207,6 +207,20 @@ footer{
 /* MEDIA QUERY */
 
 @media screen and (max-width: 480px) and (min-width: 320px){
+    .header{
+        flex-direction: column;
+    }
+    #nav{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    #nav a{
+        margin-left: 0;
+        margin-right: 2%;
+        font-size: .7em;
+        margin-bottom: 5%;
+    }
     #whyArt{
         flex-direction: column;
     }
@@ -258,12 +272,12 @@ footer{
     #name label{
         margin-right: 15%;
     }
-    .logo{
-        max-width: 2.5%;
-        margin-left: 2%;
-    }
     .contactButton{
         text-align: center;
         margin: 0;
+    }
+    .logo{
+        max-width: 2.5%;
+        margin-left: 2%;
     }
 }
