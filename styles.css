@@ -24,10 +24,10 @@ body{
     font-size: 1.5em;
 }
 #nav{
-    width: 60%;
+    width: 50%;
 }
 #nav a{
-    margin-right: 4%;
+    margin-left: 4%;
     text-decoration: none;
     color: #313632;
     font-size: .9em;
@@ -41,25 +41,18 @@ body{
 }
 /* ABOUT */
 #about{
-    background-color: #808681;
+    border: 1em solid #a0a967;
 }
-.container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.container img{
-    max-width: 30%;
+img{
+    max-width: 300px;
 }
 .bio-contain{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
-    margin: 3%;
-    margin-right: 1%;
+    width: 70%;
+    margin: 3% auto;
     background-color: white;
 }
 
@@ -69,8 +62,29 @@ body{
 }
 .bio{
     width: 80%;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 3%;
+}
+/* WHY ART THERAPY */
+#whyArt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.whyTitle{
+    width: 30%;
+    margin-left: 7%;
+    background-color: #f9c804;
+    padding: 3%;
+    margin-right: 3%;
+}
+.whyDescription{
+    width: 60%;
+    margin-right: 5%;
+    border: 1em solid #f9c804;
+    padding: 7%;
 }
 
 
