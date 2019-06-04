@@ -10,21 +10,6 @@
     height: 100%;
     width: 15%;
 }
-#a{
-   background-color: #F06388; 
-}
-#b{
-    background-color:#FE829C;
-}
-#c{
-    background-color:#F1AAB4; 
-}
-#d{
-    background-color: #FFBACB;
-}
-#e{
-    background-color: #FFA5C0;
-}
 #f{
     background-color: #a0a967;
 }
@@ -40,21 +25,6 @@
 #j{
     background-color:#808681;
 }
-#k{
-    background-color: #8d6f88;
-}
-#l{
-    background-color: #dd7dc0;
-}
-#m{
-    background-color: #fcbbec;
-}
-#n{
-    background-color: #825484;
-}
-#o{
-    background-color: #3c242c;
-}
 
 .fonts{
     display: flex;
@@ -68,56 +38,18 @@
     margin: 3%;
     width: 30%;
 }
-
-
 #nanumGothic{
     font-family: 'Nanum Gothic', sans-serif;
 }
 #oxygen{
     font-family: 'Oxygen', sans-serif;
 }
-#josefinSans{
-    font-family: 'Josefin Sans', sans-serif;
-}
-#questrial{
-    font-family: 'Questrial', sans-serif;
-}
-#permanentMarket{
-    font-family: 'Permanent Marker', cursive;
-}
-#staatliches{
-    font-family: 'Staatliches', cursive;
-}
-#quattro{
-    font-family: 'Quattrocento Sans', sans-serif; 
-}
-#poiret{
-    font-family: 'Poiret One', cursive;
-}
-#josefinSlab{
-    font-family: 'Josefin Slab', serif;
-}
 #montserrat{
     font-family: 'Montserrat Alternates', sans-serif;
-}
-#pontano{
-    font-family: 'Pontano Sans', sans-serif;
 }
 #julius{
     font-family: 'Julius Sans One', sans-serif;
 }
-#fred{
-    font-family: 'Fredericka the Great', cursive;
-}
-#reem{
-    font-family: 'Gruppo', cursive;
-}
-#megrim{
-font-family: 'Megrim', cursive;
-}
 #kod{
 font-family: 'Kodchasan', sans-serif;
-}
-#londrinaOutline{
-font-family: 'Londrina Outline', cursive;
 }
