@@ -1,3 +1,39 @@
+body{
+    background-color: white;
+    font-family: 'Kodchasan', sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 3% 0 3%;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+.header h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5em;
+}
+#nav{
+    width: 60%;
+}
+#nav a{
+    margin-right: 4%;
+    text-decoration: none;
+    color: #313632;
+    font-size: .9em;
+}
+#nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+#nav a:visited{
+    color: black;
+}
+
+
 
 .colorContain{
     display: flex;
