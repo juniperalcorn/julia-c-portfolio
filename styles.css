@@ -24,7 +24,7 @@ body{
     font-size: 1.5em;
 }
 #nav{
-    width: 50%;
+    width: 55%;
 }
 #nav a{
     margin-left: 4%;
@@ -82,11 +82,30 @@ img{
 }
 .whyDescription{
     width: 60%;
-    margin-right: 5%;
+    margin-right: 7%;
     border: 1em solid #f9c804;
     padding: 7%;
 }
 
+/* APPROACH */
+#approach{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    border: 1em solid #c2c929;
+}
+.approachTitle{
+    background-color:#c2c929;
+    width: 18%;
+    margin: 5%;
+    padding: 2%;
+    text-align: center;
+}
+.approachDescription{
+    padding: 0 5% 5% 5%;
+}
 
 .colorContain{
     display: flex;
