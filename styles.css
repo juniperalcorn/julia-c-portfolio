@@ -116,12 +116,12 @@ img{
     background-color: #8d871f;
 }
 .portfolioTitle{
-    background-color: white;
+    background-color: #f9c804;
     text-align: center;
-    width: 18%;
+    font-size: 1.25em;
+    width: 86%;
     margin: 5%;
     padding: 2%;
-    border: 1em solid #f9c804;
 }
 .group{
     display: flex;
@@ -157,64 +157,37 @@ img{
 /* CONTACT FORM */
 #contactForm{
     margin: 5%;
-    margin-top: 10%;
+    margin-top: 14%;
     width: 37%;
 }
-
-
-.colorContain{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 100px;
-    font-family: Arial;
+input{
+    width: 65%;
 }
-.color{
-    height: 100%;
-    width: 15%;
+textarea{
+    width: 65%;
+    height: 8em;
 }
-#f{
-    background-color: #a0a967;
+#name{
+    margin-bottom: 4%;
 }
-#g{
-    background-color: #f9c804;
+#email{
+    margin-bottom: 4%;
 }
-#h{
-    background-color: #c2c929;
+#msg{
+    margin-bottom: 4%;
 }
-#i{
-    background-color: #8d871f;
+#msg label{
+    margin-right: 3%;
 }
-#j{
-    background-color:#808681;
+#name label{
+    margin-right: 12%;
 }
-
-.fonts{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+#email label{
+    margin-right: 13%;
 }
-
-.sample{
-    border: 2px solid black;
-    padding: 5%;
-    margin: 3%;
-    width: 30%;
-}
-#nanumGothic{
-    font-family: 'Nanum Gothic', sans-serif;
-}
-#oxygen{
-    font-family: 'Oxygen', sans-serif;
-}
-#montserrat{
-    font-family: 'Montserrat Alternates', sans-serif;
-}
-#julius{
-    font-family: 'Julius Sans One', sans-serif;
-}
-#kod{
-font-family: 'Kodchasan', sans-serif;
+.contactButton{
+    text-align: right;
+    margin-right: 30%;
 }
 /* FOOTER */
 footer{
